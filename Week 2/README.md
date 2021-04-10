@@ -140,9 +140,9 @@ car = 'toyota';
 tire = 4;
 console.log(car, tire);
 ```
-* A) toyota, 4 
-* B) 4, toyota
-* C) ReferenceError, undefined
+* A) ReferenceError
+* B) 4 toyota
+* C) SyntaxError
 * D) undefined, undefined
 
 19 - Çıktısı nedir?
