@@ -72,3 +72,14 @@
 * B) Koşula bağlı tekrar eden işlemleri gerçekleştirmek için 
 * C) Koşula bağlı işlemleri gerçekleştirmek için 
 * D) Obje oluşturmak için
+
+14 - 
+```javascript
+console.log(30/5*2);
+```
+kodunun çıktısı ne olur?
+
+- A) 3
+- B) 12
+- C) 36
+- D) 1.2
