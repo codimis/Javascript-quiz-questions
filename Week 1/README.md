@@ -72,3 +72,100 @@
 * B) Koşula bağlı tekrar eden işlemleri gerçekleştirmek için 
 * C) Koşula bağlı işlemleri gerçekleştirmek için 
 * D) Obje oluşturmak için
+
+14 - Çıktısı ne olur?
+
+```javascript
+console.log(+true);
+console.log(!'Codimis');
+```
+
+* A) +true, !'Codimis' 
+* B) 1, false 
+* C) 0, true
+* D) 1, 'Codimis'
+
+15 - Çıktısı ne olur?
+
+```javascript
+let a = 5;
+let b = new Number(5);
+let c = '5';
+
+console.log(a == b);
+console.log(a === b);
+console.log(b === c);
+```
+
+* A) false, false, false
+* B) true, true, true
+* C) true, false, false
+* D) true, true, false
+
+16 - Çıktısı ne olur?
+
+```javascript
+function sum(a, b) {
+  return a + b;
+}
+
+console.log(sum(2, '3'));
+```
+
+* A) NaN
+* B) "23"
+* C) Syntax Error
+* D) 5
+
+17 - Çıktısı ne olur?
+
+```javascript
+let number = 1;
+console.log(number++);
+console.log(++number);
+console.log(number);
+```
+
+* A) 1 2 3
+* B) 2 2 3
+* C) 1 3 3
+* D) 2 3 3
+
+18 - Çıktısı ne olur?
+
+```javascript
+var num = 8;
+var num = 10;
+
+console.log(num);
+```
+
+* A) 8
+* B) 10
+* C) Syntax Error
+* D) Reference Error
+
+
+19 - Çıktısı ne olur?
+
+```javascript
+console.log(typeof typeof 1);
+```
+
+* A) "number"
+* B) "string"
+* C) "object"
+* D) "undefined"
+
+20 - Çıktısı ne olur?
+
+```javascript
+console.log(!!null);
+console.log(!!'');
+console.log(!!1);
+```
+
+* A) false, false, false
+* B) true, true, true
+* C) false, false, true
+* D) false, true, true
