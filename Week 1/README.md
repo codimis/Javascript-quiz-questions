@@ -169,3 +169,13 @@ console.log(!!1);
 * B) true, true, true
 * C) false, false, true
 * D) false, true, true
+
+21 - Çıktısı ne olur?
+```javascript
+console.log(30/5*2);
+```
+
+* A) 3
+* B) 12
+* C) 36
+* D) 1.2
