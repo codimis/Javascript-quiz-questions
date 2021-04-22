@@ -179,3 +179,60 @@ console.log(30/5*2);
 * B) 12
 * C) 36
 * D) 1.2
+
+
+22 - Çıktısı ne olur?
+```javascript
+x = 5;
+var x;
+console.log(x);
+```
+
+* A) ReferenceError
+* B) SyntaxError
+* C) 5
+* D) undefined
+
+
+23 - Çıktısı ne olur?
+```javascript
+x = 5;
+let x;
+console.log(x);
+```
+
+* A) ReferenceError
+* B) SyntaxError
+* C) 5
+* D) undefined
+
+24 - Çıktısı ne olur?
+```javascript
+var a = 'a'/5;
+var b = 'b'/5;
+if (a === b) {
+  console.log("a b'ye eşit");
+} else {
+  console.log("a b'ye eşit değil");
+}
+```
+
+* A) a b'ye eşit
+* B) a b'ye eşit değil
+* C) ReferenceError
+* D) undefined
+
+25 - Çıktısı ne olur?
+```javascript
+if (NaN === NaN) {
+  console.log("NaN ve NaN eşittir");
+} else {
+  console.log("NaN ve NaN eşit değildir");
+}
+```
+
+* A) NaN ve NaN eşittir
+* B) NaN ve NaN eşit değildir
+* C) ReferenceError
+* D) SyntaxError
+
