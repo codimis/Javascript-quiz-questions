@@ -164,3 +164,26 @@ console.log(array.length);
 * B) 5
 * C) 6
 * D) 3
+
+21 - Çıktısı nedir?
+```javascript
+const x = [];
+x.push("Hello", "World!");
+console.log(x);
+```
+* A) ["Hello", "World!"]
+* B) TypeError
+* C) ReferenceError
+* D) SyntaxError
+
+22 - Çıktısı nedir?
+```javascript
+const x = [];
+x = ["Hello", "World!"];
+console.log(x);
+```
+* A) ["Hello", "World!"]
+* B) TypeError
+* C) ReferenceError
+* D) SyntaxError
+

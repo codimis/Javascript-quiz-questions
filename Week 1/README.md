@@ -236,3 +236,35 @@ if (NaN === NaN) {
 * C) ReferenceError
 * D) SyntaxError
 
+
+26 - Çıktısı ne olur?
+```javascript
+var x = 10;
+if (true) {
+  var x = 15;     
+  console.log(x);
+}
+console.log(x);
+```
+
+* A) 15, 15
+* B) 10, 10
+* C) 15, 10
+* D) 10, 15
+
+
+27 - Çıktısı ne olur?
+```javascript
+let x = 10;
+if (true) {
+  let x = 15;     
+  console.log(x); 
+}
+console.log(x);
+```
+
+* A) 15, 15
+* B) 10, 10
+* C) 15, 10
+* D) 10, 15
+
