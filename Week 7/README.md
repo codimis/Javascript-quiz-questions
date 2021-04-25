@@ -106,3 +106,24 @@ Date:   Sun Apr 11 21:18:25 2021 +0200
 * B) Git commit mesajlarını tutmak için kullanılır
 * C) Takip edilmesinin istenmediğinde dosyaları tutmak için kullanılır 
 * D) Git üzerindeki değişiklikleri saklamak için kullanılır.
+
+13 - Git loglarında tag bilgisinin de gösterilmesi için hangi parametrenin kullanılması gerekiyor?
+
+* A) --show-tags
+* B) --tags
+* C) --display-all
+* D) --decorate
+
+14 - Git branchlerini listelemek için hangi komut kullanılır?
+
+* A) git show
+* B) git log
+* C) git branch
+* D) git branch list
+
+15 - "git branch codimis" ve "git branch -d codimis" arasında ne fark vardır? 
+
+* A) İkinci komut branch yoksa oluşturur
+* B) ilk komut oluştururken ikincisi siler
+* C) İkinci komut commit atarak oluşturur
+* D) İlk komut o branche geçmeyi sağlar
