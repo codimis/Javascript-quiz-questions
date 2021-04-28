@@ -187,3 +187,46 @@ console.log(x);
 * C) ReferenceError
 * D) SyntaxError
 
+
+23 - Çıktısı ne olur?
+
+```javascript
+function foo(a, b, c) {
+  console.log( b );
+}
+foo( 4, 5, 6 );
+```
+
+* A) 4
+* B) 5
+* C) 6
+* D) b
+
+24 - Çıktısı ne olur?
+
+```javascript
+let arr = [ 1, 2, 3 ];
+console.log( arr[3] );
+```
+
+* A) 1
+* B) 2
+* C) 3
+* D) undefined
+
+25 - Çıktısı ne olur?
+
+```javascript
+var message = "no";
+function foo(message) {
+  message = "yes";
+}
+foo( message );
+console.log( message );
+```
+
+* A) TypeError
+* B) undefined
+* C) no
+* D) yes
+

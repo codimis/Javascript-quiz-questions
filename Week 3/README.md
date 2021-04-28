@@ -258,3 +258,33 @@ calc();
 - B) SyntaxError
 - C) 1 2
 - D) ReferenceError
+
+21 - Codimis objesinin quiz özelliğine nasıl erişiriz?
+
+```javascript
+let codimis = {
+  quiz: 1,
+  question: 2
+};
+```
+
+- A) codimis->quiz
+- B) codimis(quiz)
+- C) codimis.quiz
+- D) codimis{quiz}
+
+
+22 - while loop kaç defa çalışacak?
+
+```javascript
+let count = 5;
+while (count) {
+  console.log(count);
+  count--;
+}
+```
+
+- A) 5
+- B) 6
+- C) Hiç
+- D) Sonsuz

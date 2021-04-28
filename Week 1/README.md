@@ -268,3 +268,66 @@ console.log(x);
 * C) 15, 10
 * D) 10, 15
 
+28 - Değişkenin tipini değiştirmeden karşılaştırma yapmak için hangisi kullanılır?
+
+* A) =
+* B) ==
+* C) ===
+* D) typeof
+
+29 - Çıktısı ne olur?
+
+```javascript
+/* console.log(1); */
+// console.log(2);
+console.log(3);
+```
+
+* A) 1
+* B) 1, 2, 3
+* C) 3
+* D) 2
+
+30 - Çıktısı ne olur?
+
+```javascript
+var x, y = 42;
+console.log(x);
+```
+
+* A) 42
+* B) null
+* C) undefined
+* D) ReferenceError
+
+31 - Switch-case kullanırken break statementını yazmazsak ne olur?
+
+* A) Default case ile çalışmaya devam eder.
+* B) Çalışma sırasında hata verir.
+* C) Switch-case çalışmaz.
+* D) Bir sonraki case ile çalışmasını sürdürür.
+
+32 - Çıktısı ne olur?
+
+```javascript
+let result = 100 + "200"
+```
+
+* A) NaN
+* B) 300
+* C) 100200
+* D) TypeError
+
+
+32 - Çıktısı ne olur?
+
+```javascript
+let result = 10;
+result += 5;
+console.log(result);
+```
+
+* A) 10
+* B) 15
+* C) 25
+* D) NaN
