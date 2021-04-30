@@ -127,3 +127,17 @@ Date:   Sun Apr 11 21:18:25 2021 +0200
 * B) ilk komut oluştururken ikincisi siler
 * C) İkinci komut commit atarak oluşturur
 * D) İlk komut o branche geçmeyi sağlar
+
+16 - Aşağıdaki git revert kullanımı ile hangi işlemi yapmış oluruz?
+```
+caner.unal@CANERUNAL Javascript-quiz-questions (main)
+git revert aa41fa7
+[main 96fd8ff] Revert "Week 3 changed"
+
+1 file changed, 1 insertion (+), 1 deletion (-)
+```
+
+* A) aa41fa7 id li commit silinir
+* B) aa41fa7 id li commit teki değişiklikleri geri alınıp, yeni bir commit atılır
+* C) Değişiklikleri repository den kaldırıp kendi localimize ekler
+* D) aa41fa7 id li commit ten sonraki tüm değişiklikleri siler ve bu id li commit e geri döner
