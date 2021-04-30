@@ -288,3 +288,16 @@ while (count) {
 - B) 6
 - C) Hiç
 - D) Sonsuz
+
+23 - Aşağıdaki kodun çıktısı ne olur?
+
+```javascript
+for(var i=0; i<5; i++){
+  console.log(++i);
+}
+```
+
+- A) 1 2 3 4
+- B) 0 2 4
+- C) 1 3 5
+- D) 0 1 2 3 4
