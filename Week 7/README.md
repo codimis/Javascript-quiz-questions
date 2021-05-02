@@ -141,3 +141,198 @@ git revert aa41fa7
 * B) aa41fa7 id li commit teki değişiklikleri geri alınıp, yeni bir commit atılır
 * C) Değişiklikleri repository den kaldırıp kendi localimize ekler
 * D) aa41fa7 id li commit ten sonraki tüm değişiklikleri siler ve bu id li commit e geri döner
+
+17 - Branch değiştirmek için aşağıdaki komutlardan hangisi kullanılır?
+
+* A) git change "Branch-name"
+* B) git switch "Branch-name"
+* C) git branch --change "Branch-name"
+* D) git checkout "Branch-name"
+
+18 - branch1 isimli branche branch2 isimli branchi birleştirmek için hangi işlemleri yapmak gerekir?
+
+* A) git merge "branch1" "branch2"
+* B) git checkout "branch1" -> git merge "branch2"
+* C) git add "branch2" "branch1"
+* D) git checkout "branch2" -> git merge "branch1"
+
+19 - Fast forward merge nedir?
+
+* A) Değişikliklerin branch oluşturmadan yapılmasına denir
+* B) Commitin direk diğer branche geçirilmesine denir
+* C) Merge işlemi sonunda commit atılan merge denir
+* D) Merge işleminin hatalı bir şekilde tamamlanmasına denir
+
+20 - Merge işlemi sırasında bir hata çıkmasına ... denir.
+
+* A) merge crash
+* B) merge issue
+* C) merge conflict
+* D) merge bug
+
+21 - Git commit --amend ile hangisi yapılamaz.
+
+* A) commit mesajını değiştirmek
+* B) commit içeriğini değiştirmek
+* C) commite yeni dosyalar eklemek
+* D) commitin atanı değiştirmek
+
+22 - HEAD^ hangi commiti temsil etmektedir?
+
+```
+* 2aae46e (HEAD -> main, origin/main) new questions are added to first week
+*   bfb9835 merge
+|\
+| * 5275adc Week 1 new question added
+* | c9bfd49 questions for week 6 are created and new questions are added to week 1
+|/
+*   078d234 merge
+|\
+| * a33a901 Week 2 question 18 answers fixed
+| * 08e202b Week 3 questions updated with Markdown
+* | ca61274 Questions for week 5
+|/
+* 433dbbd Questions are updated according to markdown language
+* 6efa7f3 update readme
+* efebbe4 Update week 3 raw version
+* 31c1464 Update README
+* f8e6ed9 Raw versions are added.
+* 1b36131 week folders and readme files are created
+* 52c5443 first commit
+```
+
+* A) 2aae46e
+* B) bfb9835
+* C) 5275adc
+* D) c9bfd49
+
+
+23 - HEAD~4 hangi commiti temsil etmektedir?
+
+```
+* 2aae46e (HEAD -> main, origin/main) new questions are added to first week
+*   bfb9835 merge
+|\
+| * 5275adc Week 1 new question added
+* | c9bfd49 questions for week 6 are created and new questions are added to week 1
+|/
+*   078d234 merge
+|\
+| * a33a901 Week 2 question 18 answers fixed
+| * 08e202b Week 3 questions updated with Markdown
+* | ca61274 Questions for week 5
+|/
+* 433dbbd Questions are updated according to markdown language
+* 6efa7f3 update readme
+* efebbe4 Update week 3 raw version
+* 31c1464 Update README
+* f8e6ed9 Raw versions are added.
+* 1b36131 week folders and readme files are created
+* 52c5443 first commit
+```
+
+* A) 078d234
+* B) 433dbbd
+* C) ca61274
+* D) a33a901
+
+24 - HEAD~3^2 hangi commiti temsil etmektedir?
+
+```
+* 2aae46e (HEAD -> main, origin/main) new questions are added to first week
+*   bfb9835 merge
+|\
+| * 5275adc Week 1 new question added
+* | c9bfd49 questions for week 6 are created and new questions are added to week 1
+|/
+*   078d234 merge
+|\
+| * a33a901 Week 2 question 18 answers fixed
+| * 08e202b Week 3 questions updated with Markdown
+* | ca61274 Questions for week 5
+|/
+* 433dbbd Questions are updated according to markdown language
+* 6efa7f3 update readme
+* efebbe4 Update week 3 raw version
+* 31c1464 Update README
+* f8e6ed9 Raw versions are added.
+* 1b36131 week folders and readme files are created
+* 52c5443 first commit
+```
+
+* A) a33a901
+* B) 078d234
+* C) c9bfd49
+* D) ca61274
+
+25 - HEAD~3^2~2 hangi commiti temsil etmektedir?
+
+```
+* 2aae46e (HEAD -> main, origin/main) new questions are added to first week
+*   bfb9835 merge
+|\
+| * 5275adc Week 1 new question added
+* | c9bfd49 questions for week 6 are created and new questions are added to week 1
+|/
+*   078d234 merge
+|\
+| * a33a901 Week 2 question 18 answers fixed
+| * 08e202b Week 3 questions updated with Markdown
+* | ca61274 Questions for week 5
+|/
+* 433dbbd Questions are updated according to markdown language
+* 6efa7f3 update readme
+* efebbe4 Update week 3 raw version
+* 31c1464 Update README
+* f8e6ed9 Raw versions are added.
+* 1b36131 week folders and readme files are created
+* 52c5443 first commit
+```
+
+* A) efebbe4
+* B) 6efa7f3
+* C) 433dbbd
+* D) ca61274
+
+
+26 - Cherry-pick hangisi için kullanılır?
+
+* A) Committeki değişklikleri iptal etmek için
+* B) Committeki bazı değişiklikleri kaldırmak için
+* C) Committeki değişiklikleri taşımak için
+* D) Committeki değişiklikleri kopyalamak için
+
+27 -  Remote repositoryi localimize kopyalamak için hangi komut kullanılır?
+
+* A) git clone "remote-address"
+* B) git copy "remote-address"
+* C) git paste "remote-address"
+* D) git create "remote-address"
+
+28 -  Aşağıdakilerden hangisi git fetch komutu için doğrudur?
+
+* A) remote repodaki değişiklikleri working directorye alır
+* B) working directorideki değişiklikleri remote repoya alır
+* C) remote repodaki değişiklikleri local repoya alır
+* D) local repodaki değişklikleri remove repoya alır
+
+29 - Bir branch üzerinde yaptığımız değişikliklerin commit etmeden geçici olarak kaydedilmesine .... denir.
+
+* A) unstash
+* B) rebase
+* C) stash
+* D) pull
+
+30 - Git reset flagleri için aşağıdakilerden hangisi yanlıştır?
+
+* A) --mixed değişiklikleri geri alıp working directorye ekler
+* B) --soft değişiklikleri geri alıp staging area ya ekler
+* C) --hard değişiklikleri tamamen siler
+* D) --hard ve --soft geri alınamaz sonuçlar doğurur
+
+31 - Staging area ne için vardır?
+
+* A) Değişiklik dosyalarını geçici olarak tutmak için
+* B) Stashlenen dosyaları tutmak için
+* C) Commit edilemek için hazırlanan dosyaları tutmak için
+* D) Git tarafından takip edilmesi istenmeyen dosyaları tutmak için
