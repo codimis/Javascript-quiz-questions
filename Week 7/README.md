@@ -316,7 +316,7 @@ git revert aa41fa7
 * C) remote repodaki değişiklikleri local repoya alır
 * D) local repodaki değişklikleri remove repoya alır
 
-29 - Bir branch üzerinde yaptığımız değişikliklerin commit etmeden geçici olarak kaydedilmesine .... denir.
+29 - Bir branch üzerinde yaptığımız değişikliklerin commit edilmeden geçici olarak kaydedilmesine .... denir.
 
 * A) unstash
 * B) rebase
@@ -336,3 +336,22 @@ git revert aa41fa7
 * B) Stashlenen dosyaları tutmak için
 * C) Commit edilemek için hazırlanan dosyaları tutmak için
 * D) Git tarafından takip edilmesi istenmeyen dosyaları tutmak için
+
+32 - "Repositorye her push sonrasında mail atılsın" gibi senaryolar için çalıştırılabilecek özel komut dosyalarına ... denir.
+
+* A) bash
+* B) pull request
+* C) hook
+* D) rebase
+
+33 - Git push hangisi için kullanılır?
+
+* A) stashe alınmış değişiklikleri uygulamak
+* B) staging areada olan bir değişikliği geri almak
+* C) staging areadaki değişiklikleri local repositorye göndermek
+* D) local repositoryde yaptığımız değişiklikleri remote repositorye göndermek
+
+34 - "Git pull komutunu çalıştırdığımızda merge conflict olma ihtimali vardır."
+
+* A) true
+* B) false
