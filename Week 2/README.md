@@ -72,7 +72,7 @@
 * A) Pop fonsiyonu tamamlandıktan sonra çıkarılan elemanı döner 
 * B) Shift fonsiyonu tamamlandıktan sonra çıkarılan elemanı döner 
 * C) Unshift fonsiyonu tamamlandıktan sonra çıkarılan elemanı döner 
-* D) Push fonsiyonu tamamlandıktan sonra çıkarılan dizinin uzunluğunu döner
+* D) Push fonsiyonu tamamlandıktan sonra dizinin uzunluğunu döner
 
 14 - Çıktısı nedir?
 ```javascript
