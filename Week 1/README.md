@@ -338,6 +338,6 @@ let score = 85;
 let grade = score >= 80 ? "A" : "B";
 
 console.log(`Your exam grade is ${grade}`);
-
+```
 * A) Your exam grade is A
 * B) Your exam grade is B
