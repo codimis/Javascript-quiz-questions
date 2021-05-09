@@ -319,7 +319,7 @@ let result = 100 + "200"
 * D) TypeError
 
 
-32 - Çıktısı ne olur?
+33 - Çıktısı ne olur?
 
 ```javascript
 let result = 10;
@@ -331,3 +331,13 @@ console.log(result);
 * B) 15
 * C) 25
 * D) NaN
+
+34- Çıktısı ne olur?
+```javascript
+let score = 85;
+let grade = score >= 80 ? "A" : "B";
+
+console.log(`Your exam grade is ${grade}`);
+
+* A) Your exam grade is A
+* B) Your exam grade is B
