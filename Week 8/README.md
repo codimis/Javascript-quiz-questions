@@ -1,3 +1,6 @@
+# CODIMIS 
+## Javascript Eğitimi Sekizinci Hafta Soruları
+
 1- "Arrow function ile tanımlanandan fazla parametre almak için arguments kullanılır."
    
 * A) Doğru
