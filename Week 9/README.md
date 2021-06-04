@@ -1,3 +1,6 @@
+# CODIMIS 
+## Javascript Eğitimi Dokuzuncu Hafta Soruları
+
 1- Aşağıdaki kodun çıktısı ne olur?
 ```javascript
 const [a=1, , b, [c,d] ,f] = [undefined,5,6,[3,4]]

@@ -1,3 +1,6 @@
+# CODIMIS 
+## Javascript Eğitimi Onuncu Hafta Soruları
+
 1- Aşağıdaki kodun çıktısı ne olur?
  ```javascript
 function multiply(a) {
@@ -72,7 +75,7 @@ console.log(add(10,20));
 const discount = function (price,rate,fixedRate=0.1){
     return price - price * fixedRate - price * rate;
 }
-discount(100,0.5);
+console.log(discount(100,0.5));
 ```
 
 * A) 50
