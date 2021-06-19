@@ -156,3 +156,14 @@ arraySparse.forEach(function(element) {
 
 * A) 1,3,7
 * B) 1,3,undefined,7
+
+15 - Aşağıdaki kodun çıktısı ne olur?
+```javascript
+let newList = [1, 2, 3].push(4);
+
+console.log(newList.push(5));
+```
+* A) [1, 2, 3, 4, 5]
+* B) [1, 2, 3, 5]
+* C) [1, 2, 3, 4]
+* D) Error
