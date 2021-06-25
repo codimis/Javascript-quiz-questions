@@ -17,7 +17,7 @@
 * C) Git init
 * D) Git clone
 
-4 - Aşağıdakilerden hangisi bir git reposunda değişiklik yapılmış ancak kaydedilmemiş dosyaları görüntülemek için kullanılır?
+4 - Aşağıdakilerden hangisi bir git reposunda değiştirilmiş, ancak kaydedilmemiş dosyaları görüntülemek için kullanılır?
 
 * A) Git status
 * B) Git log
