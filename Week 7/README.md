@@ -10,7 +10,7 @@
 * A) Doğru
 * B) Yanlış
 
-3 - Aşağıdakilerden hangisi bir git reposu oluşturulmak için kullanılır?
+3 - Aşağıdakilerden hangisi bir git reposu oluşturmak için kullanılır?
 
 * A) Git start
 * B) Git create
@@ -104,7 +104,7 @@ Date:   Sun Apr 11 21:18:25 2021 +0200
 
 * A) Yapılan değişiklikleri görmek için kullanılır
 * B) Git commit mesajlarını tutmak için kullanılır
-* C) Takip edilmesinin istenmediğinde dosyaları tutmak için kullanılır 
+* C) Takip edilmesinin istenmediği dosyaları tutmak için kullanılır 
 * D) Git üzerindeki değişiklikleri saklamak için kullanılır.
 
 13 - Git loglarında tag bilgisinin de gösterilmesi için hangi parametrenin kullanılması gerekiyor?
@@ -159,7 +159,7 @@ git revert aa41fa7
 19 - Fast forward merge nedir?
 
 * A) Değişikliklerin branch oluşturmadan yapılmasına denir
-* B) Commitin direk diğer branche geçirilmesine denir
+* B) Commitin direkt diğer branche geçirilmesine denir
 * C) Merge işlemi sonunda commit atılan merge denir
 * D) Merge işleminin hatalı bir şekilde tamamlanmasına denir
 
@@ -297,7 +297,7 @@ git revert aa41fa7
 
 26 - Cherry-pick hangisi için kullanılır?
 
-* A) Committeki değişklikleri iptal etmek için
+* A) Committeki değişiklikleri iptal etmek için
 * B) Committeki bazı değişiklikleri kaldırmak için
 * C) Committeki değişiklikleri taşımak için
 * D) Committeki değişiklikleri kopyalamak için
@@ -312,9 +312,9 @@ git revert aa41fa7
 28 -  Aşağıdakilerden hangisi git fetch komutu için doğrudur?
 
 * A) remote repodaki değişiklikleri working directorye alır
-* B) working directorideki değişiklikleri remote repoya alır
+* B) working directorydeki değişiklikleri remote repoya alır
 * C) remote repodaki değişiklikleri local repoya alır
-* D) local repodaki değişklikleri remove repoya alır
+* D) local repodaki değişklikleri remote repoya alır
 
 29 - Bir branch üzerinde yaptığımız değişikliklerin commit edilmeden geçici olarak kaydedilmesine .... denir.
 
@@ -334,7 +334,7 @@ git revert aa41fa7
 
 * A) Değişiklik dosyalarını geçici olarak tutmak için
 * B) Stashlenen dosyaları tutmak için
-* C) Commit edilemek için hazırlanan dosyaları tutmak için
+* C) Commit edilmek için hazırlanan dosyaları tutmak için
 * D) Git tarafından takip edilmesi istenmeyen dosyaları tutmak için
 
 32 - "Repositorye her push sonrasında mail atılsın" gibi senaryolar için çalıştırılabilecek özel komut dosyalarına ... denir.
