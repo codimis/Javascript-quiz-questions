@@ -1,3 +1,7 @@
+# CODIMIS 
+
+## Javascript Eğitimi Ondördüncü Hafta Soruları
+
 1 - Aşağıdaki kodun çıktısı ne olur?
 ```javascript
 const x = 0.1
