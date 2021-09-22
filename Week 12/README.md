@@ -191,3 +191,33 @@ console.log(min);
 * B) -1
 * C) 0
 * D) SyntaxError
+
+14 - Aşağıdaki kodun çıktısı ne olur?
+```javascript
+const myArr = ['a', 'b', 'c'];
+const myMap = { a: 1, b: 2, c: 3 };
+
+const result = myArr.map(letter => myMap[letter]);
+console.log(result);
+```
+
+* A) 1, 2, 3
+* B) a, b, c
+* C) [1, 2, 3] 
+* D) [a, b, c]
+
+15 - Aşağıdaki kodun çıktısı ne olur?
+```javascript
+const arr = [
+  x => x * 1,
+  x => x * 2,
+  x => x * 3,
+  x => x * 4
+];
+console.log(arr.reduce((agg, el) => agg + el(agg), 1));
+```
+
+* A) 1
+* B) 60
+* C) 100
+* D) 120
