@@ -230,3 +230,17 @@ console.log( message );
 * C) no
 * D) yes
 
+26 - Aşağıdaki kodun çıktısı ne olur?
+```javascript
+const groceries = ['banana', 'apple', 'peanuts'];
+
+if (groceries.indexOf('banana')) {
+  console.log('We have to buy bananas!');
+} else {
+  console.log(`We don't have to buy bananas!`);
+}
+```
+* A) We have to buy bananas!
+* B) We don't have to buy bananas
+* C) undefined
+* D) 16
