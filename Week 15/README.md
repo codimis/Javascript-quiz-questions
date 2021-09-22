@@ -1,6 +1,6 @@
 # CODIMIS 
 
-## Javascript Eğitimi Onbeşinci Hafta Soruları
+## Javascript Eğitimi Advanced DOM And Events Soruları
 
 1 - Formdaki buton için yazılmış event listener, butona tıklandığında sayfayı yenilemektedir. Hangi fonksiyon sayfanın yenilenmesini engeller?
 
@@ -176,3 +176,79 @@ li.style.color = "red";
 * B) Her listedeki ilk li elemanı kırmızı olur.
 * C) DOM'daki ilk li elemanı kırmızı olur.
 * D) CSS'de bir renk uygulanmadıysa ilk li elemanını kırmızı yapar.
+
+12 - Aşağıdaki kodun çıktısı ne olur?
+
+```html
+<div id="foo">
+  <button id="but">button</button>
+</div>
+```
+
+```javascript
+document.querySelector('#foo').addEventListener('click',
+  function (e) {
+    console.log('div clicked');
+  });
+
+document.querySelector('#but').addEventListener('click',
+  function (e) {
+    console.log('button clicked');
+    e.stopPropagation();
+  });
+```
+
+* A) button clicked
+* B) button clicked - div clicked
+* C) Error
+* D) undefined
+
+13 - Aşağıdakilerden hangisi DOM hiyerarşisindeki elemanlar arasındaki ilişkilerden biri değildir?
+
+* A) parent
+* B) child
+* C) sibling
+* D) cousin
+
+14 - Sticky navigation gibi bir yapıyı scroll event ini dinleyerek yapabildiğimiz gibi ________ kullanarak da yapabiliriz.
+
+* A) Lazy Loading
+* B) Intersection Observer
+* C) Event Propagation
+* D) DOM Traversing
+
+15 - Web sayfası tamamen yüklendiğinde ______ eventi, kullanıcı sayfadan ayrıldığında ise ______ eventi tetiklenir.
+
+* A) mouseenter - mouseleave
+* B) enter - exit
+* C) load - beforeunload
+* D) focus - blur
+
+16 - IntersectionObserver'a verilen callback'in ilk parametresinin türü nedir?
+
+```javascript
+IntersectionObserver(callback,options);
+```
+* A) Object
+* B) HTML kod
+* C) Selector Array
+* D) Array
+
+17 - DOMContentLoaded eventi ne zaman gerçekleşir?
+
+* A) Tarayıcı sayfayı yeniden çizdiğinde
+* B) Tarayıcı HTML ve CSS'i tamamen yüklediğinde
+* C) Tarayıcı HTML, CSS ve JS'i tamamen yüklediğinde
+* D) Tarayıcı HTML ve DOM Tree'yi tamamen yüklediğinde
+
+18 - "Bir script dosyasının HTML body ve head kısmında tanımlanması arasında bir fark yoktur."
+
+* A) Doğru
+* B) Yanlış
+
+19 - defer ve async arasındaki fark nedir?
+
+* A) defer, sadece Promise lar ile çalışır
+* B) defer, synchronous olarak çalışır
+* C) defer, sadece head bölümünde kullanılır
+* D) defer kullanıldığında scriptlerin çalışması sırayla gerçekleşir
