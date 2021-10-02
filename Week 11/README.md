@@ -167,3 +167,16 @@ console.log(newList.push(5));
 * B) [1, 2, 3, 5]
 * C) [1, 2, 3, 4]
 * D) Error
+
+16 - Aşağıdaki kodun çıktısı ne olur?
+
+```javascript
+var fruits = ['Banana', 'Orange', 'Lemon', 'Apple', 'Mango'];
+var citrus = fruits.slice(1, 3);
+console.log(citrus);
+```
+
+* A) ["Banana", "Lemon"]
+* B) ["Lemon", "Apple"]
+* C) ["Orange", "Lemon"]
+* D) undefined
