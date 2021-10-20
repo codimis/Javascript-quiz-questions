@@ -221,3 +221,16 @@ console.log(arr.reduce((agg, el) => agg + el(agg), 1));
 * B) 60
 * C) 100
 * D) 120
+
+16 - Aşağıdaki kodun çıktısı ne olur?
+```javascript
+  const a = [1,2,4,5].reduce(
+    (prev,cur) => (cur % 2 === 0 && cur > prev) ? cur : prev,
+    0);
+  console.log(a);
+```
+
+* A) 1
+* B) 2
+* C) 4
+* D) 5

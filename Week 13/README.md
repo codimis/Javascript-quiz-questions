@@ -133,3 +133,25 @@ console.log(arr.fill(6, 1, 3));
 
 * A) Doğru
 * B) Yanlış
+
+14 - 17 - Hangi seçenekteki array metodu 'b' elemanını aramamızı ve bulduysak değerini almamızı sağlayacaktır?
+
+```javascript
+//1
+let arr = ['a','b','c']
+arr.findIndex(k=> k=='b')
+//2
+let arr = ['a','b','c']
+arr.find(k=> k=='b')
+//3
+let arr = ['a','b','c']
+arr.filter(k=> k=='b')
+//4
+let arr = ['a','b','c']
+arr.forEach(k=> k=='b')
+```
+
+* A) 1
+* B) 2
+* C) 3
+* D) 4
